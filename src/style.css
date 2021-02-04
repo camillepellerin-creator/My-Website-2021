@@ -1,20 +1,10 @@
-h1{
-    color: white;
+h1 a{
+    color: darkcyan;
+    text-decoration: none;
 }
-div {
-    background-color: #E38D8D;
-    
-    
+
+ul a{
+    color: darkorchid;
+    text-decoration: none;
 }
-.nav-container {
-    margin: 0px;
-    margin-top: 0px;
-    font-size: 40px;
-    line-height: 1.5;
-    text-align: center;
-    
-}
-a .nav-container {
-    color:white;
-    text-decoration: none;  
-}
+
