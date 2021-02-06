@@ -1,17 +1,24 @@
-
+body .nav-container{
+    background-color:#0F1219;
+    padding: 50px 0px;
+}
 h1 a{
     font-family: 'Frank Ruhl Libre', serif;
-    text-align: center;
-    color: darkcyan;
+    color: #9BE6F7;
     text-decoration: none;
+    position: relative;
+    top: 0px;
+    left: 56px;
 }
 
 ul a{
     font-family: 'Frank Ruhl Libre', serif;
-    color: darkorchid;
+    color: #FFFFFF;
     text-decoration: none;
     font-size: 30px;
-    
+    position: relative;
+    top: -51px;
+    left: 335px;
 }
 
 img{
