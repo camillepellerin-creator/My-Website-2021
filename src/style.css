@@ -1,6 +1,7 @@
 body .nav-container{
     background-color:#0F1219;
     padding: 50px 0px;
+    width: 1600px;
 }
 h1 a{
     font-family: 'Frank Ruhl Libre', serif;
@@ -9,6 +10,7 @@ h1 a{
     position: relative;
     top: 0px;
     left: 56px;
+    transition: color 0.3s;
 }
 
 h1 a:hover{
@@ -23,15 +25,34 @@ ul a{
     position: relative;
     top: -51px;
     left: 335px;
+    margin: 0 0 0 15px;
+    transition: color 1s;
 }
 
 ul a:hover {
     color:#9BE6F7;
 }
 
+.social{
+    font-family: 'Frank Ruhl Libre', serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 0 0 15px;
+    transition: color 1s;
+    position: relative;
+    top: -58px;
+    left: 750px;
+}
+
+.social:hover{
+    color:#9BE6F7;  
+}
+
 img{
     display: block ;
     margin: 0 auto;
+    
 }
 
 .contact-me-button{
@@ -48,3 +69,4 @@ img{
     color: blueviolet;
     border: 1px solid blueviolet;
 }
+
