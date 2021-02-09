@@ -17,6 +17,11 @@ h1 a:hover{
     color:#E38D8D;
 }
 
+h2 {
+    color:#FFFFFF;
+    font-family: 'Frank Ruhl Libre',  serif;
+}
+
 ul a{
     font-family: 'Frank Ruhl Libre', serif;
     color: #FFFFFF;
@@ -68,5 +73,15 @@ img{
     background: #ffffff;
     color: blueviolet;
     border: 1px solid blueviolet;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px, 32px;
+}
+
+section h2{
+    grid-column: 2/ span 10;
 }
 
