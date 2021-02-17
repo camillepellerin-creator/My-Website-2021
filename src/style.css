@@ -153,3 +153,7 @@ background-color: #000000;
 
 }
 
+section.grid-layout {
+    column-count: 3;
+  }
+
