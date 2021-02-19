@@ -1,7 +1,9 @@
+
 body .nav-container{
     background-color: #000000;
     padding: 50px 0px;
     width: 1600px;
+
 }
 
 body .nav-container-about{
@@ -74,7 +76,7 @@ img{
     display: block;
     margin: 30px auto;
     padding: 10px 20px;
-    color: #999;
+    color: black;
     background: #9BE6F7;
     border-radius: 30px;
 }
@@ -138,11 +140,14 @@ border: 1px solid #9BE6F7;
 border-radius: 14px;
 outline: none;
 background-color: #000000;
+color: #9BE6F7;
+font-family: 'Frank Ruhl Libre', serif;
 }
 
 .textarea-field{
     height: 150px;
     padding-top: 10px;
+    
 }
 
 @media (max-width: 1120px) {
