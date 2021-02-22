@@ -23,7 +23,7 @@ body .nav-container-about{
 }
 
 body .nav-container-contact{
-    background-color:#E38D8D;
+    background-color:#000000;
     padding: 270px 0px;
     width: 1600px;
 }
@@ -34,6 +34,16 @@ h1 a{
     text-decoration: none;
     position: relative;
     top: 0px;
+    left: 56px;
+    transition: color 0.3s;
+}
+
+.nav-container-contact h1 a{
+    font-family: 'Frank Ruhl Libre', serif;
+    color: #9BE6F7;
+    text-decoration: none;
+    position: relative;
+    top: -220px;
     left: 56px;
     transition: color 0.3s;
 }
@@ -56,6 +66,18 @@ ul a{
     font-size: 30px;
     position: relative;
     top: -51px;
+    left: 335px;
+    margin: 0 0 0 15px;
+    transition: color 1s;
+}
+
+.nav-container-contact ul a{
+    font-family: 'Frank Ruhl Libre', serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    top: -270px;
     left: 335px;
     margin: 0 0 0 15px;
     transition: color 1s;
